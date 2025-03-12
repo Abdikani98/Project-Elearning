@@ -18,7 +18,7 @@ const RegistrationSchema = mongoose.Schema({
         required: true
     },
     Date:{
-        type: Number,
+        type: Date,
         required: true
     },
     userName:{

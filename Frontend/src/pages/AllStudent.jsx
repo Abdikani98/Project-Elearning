@@ -21,8 +21,9 @@ function AllStudent(){
                 position: "top-center",
                 
                 autoClose: 3000,
-                hideProgressBar: false
+                hideProgressBar: false,
             })
+            handleReadAllStudent()
         }).catch((error) => console.log(error))
     }
 

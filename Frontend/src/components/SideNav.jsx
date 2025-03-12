@@ -19,7 +19,7 @@ function Sidenav(){
             <NavLink to="/AllStudent"><li className="sm:ml-16 pt-6"><i class="fa-regular fa-clipboard sm:pr-2 "></i>AllStudents</li></NavLink>
             <NavLink to="/Message"><li className="sm:ml-16 pt-6"><i class="fa-regular fa-message sm:pr-2"></i>MESSAGE</li></NavLink>
             <NavLink to="/Lecture"><li className="sm:ml-16 pt-6"><i class="fa-regular fa-message sm:pr-2"></i>Lecture</li></NavLink>
-            <NavLink to="/Logout"><li className="sm:ml-16 pt-6"><i class="fa-solid fa-right-from-bracket sm:pr-2"></i>Logout</li></NavLink>
+            <NavLink to="/"><li className="sm:ml-16 pt-6"><i class="fa-solid fa-right-from-bracket sm:pr-2"></i>Logout</li></NavLink>
 
             </ul>
 
