@@ -9,6 +9,8 @@ import Contact from "./pages/Contect"
 import About from "./pages/About"
 import Course from "./pages/Course"
 import Blog from "./pages/Blog"
+import Lecture from "./pages/Lecture"
+
 
 
 
@@ -26,6 +28,7 @@ function App(){
             <Route path="/AllStudent" element={<AllStudent/>}/>
             <Route path="/Dashboard" element={<Dashboard/>}/>
             <Route path="/Message" element={<Message/>}/>
+            <Route path="/Lecture" element={<Lecture/>}/>
             
 
 

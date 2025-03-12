@@ -71,7 +71,7 @@ function Header() {
             </div>
 
             {/* Mobile Menu */}
-            <div className={`fixed top-0 left-0 w-full h-screen bg-white dark:bg-gray-900 transition-transform duration-300 transform ${open ? "translate-x-0" : "-translate-x-full"} z-40 md:hidden`}>
+            <div className={`fixed top-0 left-0 w-full h-screen bg-white dark:bg-gray-900 dark:text-white transition-transform duration-300 transform ${open ? "translate-x-0" : "-translate-x-full"} z-40 md:hidden`}>
                 <div className="p-6 flex flex-col h-full">
                     {/* Close Icon */}
                     <i onClick={() => setOpen(false)} className="fa-solid fa-x text-3xl cursor-pointer self-end"></i>

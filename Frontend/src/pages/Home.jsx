@@ -12,8 +12,8 @@ function Home(){
         <div className="sm:flex grid sm:justify-center sm:ml-24 " >
             <div className="sm:w-[670px] sm:mt-20 mt-32">
             <div className=" bg-no-repeat sm:h-[290px] h-[300px] ml-4 mb-24 sm:mt-12" style={{backgroundImage: `url(${yourImage})`}}>
-            <h1 className="font-bold font-roboto text-2xl text-primryColor sm:mt-4  sm:ml-12 ">Welcome to [LevelUp Academy]</h1>
-            <p className=" sm:ml-12 sm:mt-3 text-gray-500">Empower your learning journey with our flexible, interactive online courses. 
+            <h1 className="font-bold font-roboto sm:text-5xl text-2xl text-primryColor sm:mt-4  sm:ml-12 ">Welcome to <br /> [LevelUp Academy]</h1>
+            <p className=" sm:ml-12 sm:mt-3 text-gray-500 w-[400px] ">Empower your learning journey with our flexible, interactive online courses. 
                 <br></br>Learn at your own pace, from anywhere, with expert-led content designed to help you succeed. Start today and unlock new skills for a brighter future!</p>
             
             <Link to="/Rajesteration"><button className="bg-primryColor  ml-12 text-white p-3 text-xl rounded-xl mt-10">Get started</button></Link>
