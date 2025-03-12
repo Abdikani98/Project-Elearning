@@ -52,7 +52,7 @@ function About(){
             We are always working to provide you best of the features in all aspects.
           </h3>
           <p className="text-gray-600 mt-4">
-            At WEEKENDUX the chief determination is to clear the minds of our students about their goals...
+            AT LevelUp Academy the chief determination is to clear the minds of our students about their goals...
           </p>
           <button className="mt-6 bg-green-500 text-white px-6 py-2 rounded-lg hover:bg-green-600 transition">
             Learn More

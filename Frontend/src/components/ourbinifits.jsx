@@ -42,10 +42,10 @@ const benefits = [
 
 const Benefits = () => {
   return (
-    <div className="max-w-6xl mx-auto px-6 py-12 text-center">
+    <div className="max-w-6xl mx-auto px-6 py-12 text-center  dark:bg-gray-900 dark:text-black">
       {/* Title Section */}
-      <h3 className="text-green-600 font-bold text-lg">Our Benefits</h3>
-      <h2 className="text-3xl md:text-4xl font-bold mt-2">
+      <h3 className="text-green-600 font-bold  text-4xl py-4">Our Benefits</h3>
+      <h2 className="text-3xl md:text-4xl font-bold mt-2  dark:bg-gray-900 dark:text-white">
         By Joining LevelUp Academy, One Can Avail a Lot Of Benefits.
       </h2>
       <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
