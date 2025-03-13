@@ -166,8 +166,9 @@ function Home() {
                         <p className="text-green-500 text-sm font-medium">{tutor.role}</p>
                         <p className="mt-2 text-gray-600 text-sm">{tutor.description}</p>
                         <div className="mt-4 flex justify-center space-x-4 text-gray-500">
-                            <i className="fab fa-twitter"></i>
+                            <i className="fab fa-facebook"></i>
                             <i className="fab fa-linkedin"></i>
+                            <i className="fab fa-github"></i>
                         </div>
                     </div>
                 ))}
