@@ -26,5 +26,13 @@ const createRegistration = async(req, res)=>{
     }
 }
 
+// display all student
+const TotalStudent = async (req, res) =>{
+    const total = await RegistratioModel.find().countDocuments()
+    if(total){
+        res.send({total})
+    }
+}
 
-module.exports = {createRegistration, readRegister, deleteRegister}
+
+module.exports = {createRegistration, readRegister, deleteRegister, TotalStudent}
