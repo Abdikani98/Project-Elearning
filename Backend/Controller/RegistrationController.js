@@ -34,7 +34,7 @@ const TotalStudent = async (req, res) =>{
     }
 }
 
-<<<<<<< HEAD
+
 //student  search
 const searchStudent= async (req,res) =>{
     const searchData =await RegistratioModel.find({
@@ -52,8 +52,8 @@ const searchStudent= async (req,res) =>{
 }
 
 
-module.exports = {createRegistration, readRegister, deleteRegister ,searchStudent}
-=======
 
-module.exports = {createRegistration, readRegister, deleteRegister, TotalStudent}
->>>>>>> 28be836de57060f9c8c743f644d23aedbb05db4f
+
+
+module.exports = {createRegistration, readRegister, deleteRegister, TotalStudent, searchStudent}
+
