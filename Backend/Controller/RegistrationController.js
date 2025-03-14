@@ -27,4 +27,21 @@ const createRegistration = async(req, res)=>{
 }
 
 
-module.exports = {createRegistration, readRegister, deleteRegister}
+//student  search
+const searchStudent= async (req,res) =>{
+    const searchData =await RegistratioModel.find({
+
+        $or:[ 
+   
+            { Name: {$regex: req.params.key} },
+
+        ]
+    })
+
+    if (searchData){
+        res.send(searchData)
+    }
+}
+
+
+module.exports = {createRegistration, readRegister, deleteRegister ,searchStudent}

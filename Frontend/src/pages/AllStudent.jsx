@@ -27,6 +27,27 @@ function AllStudent(){
         }).catch((error) => console.log(error))
     }
 
+    const handleSearchStudents =(id)=>{
+
+        const key=id.target.value
+
+        if(key){
+
+            axios.get(`http://localhost:1000/search/student/${key}`).then((res)=>{
+                setGetAllStudent(res.data)
+                
+            }).catch(error => console.log(error))
+        }
+        else{
+            handleReadAllStudent()
+
+        }
+
+        }
+
+
+     
+
     useEffect(() => {
         handleReadAllStudent()
     }, [])
@@ -37,7 +58,7 @@ function AllStudent(){
         <div>
 
        <form>
-                <input className="w-52 border-2 border-green-400 outline-none h-10 rounded-lg pl-2 ml-4 mt-5 text-2xl" type="Search" placeholder="Search Student" />
+                <input onChange={handleSearchStudents} className="w-52 border-2 border-green-400 outline-none h-10 rounded-lg pl-2 ml-4 mt-5 text-2xl" type="Search" placeholder="Search Student" />
             </form>
         </div>
 
@@ -57,9 +78,11 @@ function AllStudent(){
             </thead>
 
             {
-                getAllStudent.map((data) => {
+                getAllStudent.length > 0? getAllStudent.map((data) => {
                     return <AllStudentData remove={() => handleDelete(data._id)} Name={data.Name} Email={data.Email} Phone={data.Phone} Adress={data.Adress}  Date={data.Date} userName={data.userName} Password={data.Password}  Data={new Date(data.createdAt).toDateString() } />
                 })
+                :
+              <p className="text-center py-3 my-7 ml-14 items-center  border-y-8 border-x-8 bg-teal-600 w-full"> there is Data</p>
             }
             
             
