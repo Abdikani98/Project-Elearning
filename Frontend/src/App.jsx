@@ -14,6 +14,7 @@ import Lecture from "./pages/Lecture"
 
 
 
+
 function App(){
     return (
         <Routes>
@@ -29,6 +30,7 @@ function App(){
             <Route path="/Dashboard" element={<Dashboard/>}/>
             <Route path="/Message" element={<Message/>}/>
             <Route path="/Lecture" element={<Lecture/>}/>
+            
             
 
 

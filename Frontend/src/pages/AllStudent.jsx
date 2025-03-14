@@ -82,7 +82,7 @@ function AllStudent(){
                     return <AllStudentData remove={() => handleDelete(data._id)} Name={data.Name} Email={data.Email} Phone={data.Phone} Adress={data.Adress}  Date={data.Date} userName={data.userName} Password={data.Password}  Data={new Date(data.createdAt).toDateString() } />
                 })
                 :
-              <p className="text-center py-3 my-7 ml-14 items-center  border-y-8 border-x-8 bg-teal-600 w-full"> there is Data</p>
+              <p className="text-center py-3 my-7 ml-14 items-center  border-y-8 border-x-8  w-full"> 404 Not Found</p>
             }
             
             
