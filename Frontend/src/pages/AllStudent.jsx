@@ -65,15 +65,15 @@ function AllStudent(){
         <table className="mt-10  shadow-sm shadow-black">
             <thead>
                 <tr className="bg-green-600 text-white">
-                    <th className="px-6 py-4 text-xl">Name</th>
-                    <th className="px-6 py-4 text-xl">Email</th>
-                    <th className="px-6 py-4 text-xl">Phone</th>
-                    <th className="px-6 py-4 text-xl">Adress</th>
-                    <th className="px-6 py-4 text-xl">Date</th>
-                    <th className="px-6 py-4 text-xl">userName</th>
-                    <th className="px-6 py-4 text-xl">Password</th>
-                    <th className="px-6 py-4 text-xl">Data</th>
-                    <th className="px-6 py-4 text-xl">Actions</th>
+                    <th className="px-4 py-3 text-xl">Name</th>
+                    <th className="px-4 py-3 text-xl">Email</th>
+                    <th className="px-4 py-3 text-xl">Phone</th>
+                    <th className="px-4 py-3 text-xl">Adress</th>
+                    <th className="px-4 py-3 text-xl">Date</th>
+                    <th className="px-4 py-3 text-xl">userName</th>
+                    <th className="px-4 py-3 text-xl">Password</th>
+                    <th className="px-4 py-3 text-xl">Data</th>
+                    <th className="px-4 py-3 text-xl">Actions</th>
                 </tr>
             </thead>
 
