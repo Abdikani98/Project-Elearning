@@ -17,7 +17,7 @@ function About(){
         <div>
           
           <h2 className="text-6xl  font-bold  text-green-600">About Us</h2>
-          <h3 className="text-xl md:text-4xl font-semibold mt-2">
+          <h3 className="text-xl md:text-2xl  mt-2">
             <span className="text-yellow-500 font-semibold text-5xl"> LevelUp Academy</span> Providing The Best Opportunities To The Students Around The Globe.
           </h3>
           <p className="text-gray-600 text-2xl mt-4">

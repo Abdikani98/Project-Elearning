@@ -5,6 +5,7 @@ require ("dotenv").config()
 const LoginRoutes = require("./router/loginRouter")
 const RegistrationRoutes = require("./router/RegistrationRouter")
 const ContentRoutes = require("./router/ContentRouter")
+const documentRoutes = require("./router/DocumentRouter")
 
 
 const App = express()
@@ -21,6 +22,7 @@ mongoose.connect(process.env.MongoDB_Url).then(()=>{
 App.use(LoginRoutes)
 App.use(RegistrationRoutes)
 App.use(ContentRoutes)
+App.use(documentRoutes)
 
 
 App.listen(process.env.port, ()=>{

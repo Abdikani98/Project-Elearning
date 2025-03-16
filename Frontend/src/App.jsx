@@ -10,6 +10,7 @@ import About from "./pages/About"
 import Course from "./pages/Course"
 import Blog from "./pages/Blog"
 import Lecture from "./pages/Lecture"
+import Signup from "./pages/Signup"
 
 
 
@@ -30,6 +31,8 @@ function App(){
             <Route path="/Dashboard" element={<Dashboard/>}/>
             <Route path="/Message" element={<Message/>}/>
             <Route path="/Lecture" element={<Lecture/>}/>
+            <Route path="/register" element={<Signup/>}/>
+            
             
             
 

@@ -45,9 +45,6 @@ function AllStudent(){
 
         }
 
-
-     
-
     useEffect(() => {
         handleReadAllStudent()
     }, [])
@@ -85,16 +82,12 @@ function AllStudent(){
               <p className="text-center py-3 my-7 ml-14 items-center  border-y-8 border-x-8  w-full"> 404 Not Found</p>
             }
             
-            
         </table>
-       
-
-
        </div>
        <ToastContainer />
-       
     </div>
 
 }
 
 export default AllStudent
+

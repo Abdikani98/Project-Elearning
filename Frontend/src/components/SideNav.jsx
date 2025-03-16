@@ -6,7 +6,7 @@ function Sidenav(){
   
 
     return <div>
-        <div className="h-screen sm:fixed bg-primryColor shadow-sm shadow-black text-white  sm:w-[20%] w-[40%] ">
+        <div className="h-screen sm:fixed bg-gray-700 shadow-sm shadow-black text-white  sm:w-[20%] w-[40%] ">
             <div className="pt-4  sm:pl-24 pl-4 ">
              <img className="sm:w-14 w-8 rounded-full sm:mr-8" src=""/>
              <i class="fa-solid fa-user-tie text-8xl"></i>
